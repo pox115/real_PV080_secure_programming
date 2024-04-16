@@ -56,11 +56,11 @@ if __name__ == '__main__':
         new_person = Person("Vickie")
         print_nametag(input("Please format your nametag: "), new_person)
     elif choice == "2":
-        urlib_version = raw_input("Choose version of urllib: ")
+        urlib_version = input("Choose version of urllib: ")
         fetch_website(urlib_version, url="https://www.google.com")
     elif choice == "3":
         load_yaml(input("File name: "))
         print("Executed -ls on current folder")
     elif choice == "4":
-        password = raw_input("Enter master password: ")
+        password = input("Enter master password: ")
         authenticate(password)
